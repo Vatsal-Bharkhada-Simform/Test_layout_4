@@ -4,7 +4,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: none;
 }
 
 body{
@@ -21,6 +20,7 @@ body{
     display: grid;
     grid-template-columns: 3fr 3fr 2fr 3fr 3fr;
     grid-template-rows: 4fr 3fr 2fr 4fr;
+    gap: 2rem;
 
     grid-template-areas: 
         'red1 blue1 blue1 gold1 gold1'
@@ -28,8 +28,6 @@ body{
         'white1 gold2 white2 white2 red2'
         'white1 red3 red3 blue2 red2'
     ;
-
-    gap: 2rem;
 
     .red-1{
         grid-area: red1;
